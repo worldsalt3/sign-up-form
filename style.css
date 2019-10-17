@@ -46,13 +46,14 @@
   }
 
   .button {
-    background-color: hsl(154, 59%, 51%);
+    /*background-color: hsl(154, 59%, 51%);*/
     border: none;
     border-radius: 10px;
     padding: 20px 10px 20px 10px;
     width: 500px;
     margin-top: 20px;
     color: #fff;
+    background: linear-gradient(hsl(154, 59%, 51%) 90%,hsl(154, 31%, 46%) 5%);
   }
 
   .head {
@@ -105,6 +106,10 @@
   .terms {
     color: hsl(246, 25%, 77%);
     margin-top: 10px;
+    width: 400px;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-left: 80px;
   }
 
   .TS {
